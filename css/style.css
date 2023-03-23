@@ -1,0 +1,69 @@
+:root {
+  --default-font-color: rgb(250, 251, 255, 0.55);
+  --default-bar-color: #8594e4;
+}
+
+.hero {
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+  text-align: center;
+  padding: 170px 20px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+footer {
+  background: var(--default-bar-color);
+  text-align: center;
+  padding: 30px 0;
+}
+
+.btn-branding {
+  background: #221fd6;
+  border-radius: 4px;
+  color: var(--default-font-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 60px;
+}
+
+.navbar-dark {
+  background: #8594e4 !important;
+}
+
+.navbar-brand {
+  color: var(--default-font-color);
+}
+
+.nav-link {
+  color: var(--default-font-color);
+}
+
+.nav-link.active {
+  color: var(--default-font-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+}
