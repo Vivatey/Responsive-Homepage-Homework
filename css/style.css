@@ -53,16 +53,6 @@ footer {
   color: var(--default-font-color);
 }
 
-.card-title {
-  text-align: center;
-}
-
-.card-text {
-  text-align: center;
-}
-
-
-
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
