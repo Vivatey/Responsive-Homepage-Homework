@@ -1,5 +1,5 @@
 :root {
-  --default-font-color: rgb(250, 251, 255, 0.55);
+  --default-font-color: #0250bb;
   --default-bar-color: #8594e4;
 }
 
@@ -8,11 +8,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(
-    111.5deg,
-    rgb(228, 247, 255) 21.9%,
-    rgb(255, 216, 194) 92.2%
-  );
+  background: #ededf0;
   text-align: center;
   padding: 200px 20px;
 }
@@ -32,9 +28,9 @@ footer {
 }
 
 .btn-branding {
-  background: #221fd6;
+  background: #0250bb;
   border-radius: 4px;
-  color: var(--default-font-color);
+  color: #ffffff;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -42,7 +38,7 @@ footer {
 }
 
 .navbar-dark {
-  background: #8594e4 !important;
+  background: #ededf0; !important;
 }
 
 .navbar-brand {
