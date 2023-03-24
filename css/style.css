@@ -10,7 +10,7 @@
     rgb(255, 216, 194) 92.2%
   );
   text-align: center;
-  padding: 170px 20px;
+  padding: 200px 20px;
 }
 
 h1 {
@@ -52,6 +52,16 @@ footer {
 .nav-link.active {
   color: var(--default-font-color);
 }
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+
 
 @media (max-width: 900px) {
   h1 {
