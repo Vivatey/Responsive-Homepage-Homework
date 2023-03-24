@@ -3,6 +3,10 @@
   --default-bar-color: #8594e4;
 }
 
+body {
+  background: #f6f6f6;
+}
+
 .hero {
   background: linear-gradient(
     111.5deg,
@@ -51,6 +55,11 @@ footer {
 
 .nav-link.active {
   color: var(--default-font-color);
+}
+
+.btn-card {
+  background: #0250bb;
+  color: #ffffff;
 }
 
 @media (max-width: 900px) {
