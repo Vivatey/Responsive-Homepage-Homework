@@ -11,20 +11,35 @@ body {
   background: #ededf0;
   text-align: center;
   padding: 200px 20px;
+  
 }
 
 h1 {
-  font-size: 96px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 72px;
 }
 
 h2 {
-  font-size: 64px;
+  font-family: 'Kaushan Script', cursive;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 38px;
+  margin-bottom: 100px;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 25px;
+  padding: 50px 100px 30px;
 }
 
 footer {
-  background: var(--default-bar-color);
+  background: var(--default-font-color);
   text-align: center;
-  padding: 30px 0;
+  padding: 100px 0;
 }
 
 .btn-branding {
@@ -38,19 +53,34 @@ footer {
 }
 
 .navbar-dark {
-  background: #ededf0; !important;
+  background: #ededf0 !important;
 }
 
 .navbar-brand {
   color: var(--default-font-color);
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .nav-link {
   color: var(--default-font-color);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .nav-link.active {
   color: var(--default-font-color);
+}
+
+.small-paragraph {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.top-line-paragraph {
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .btn-card {
@@ -72,3 +102,15 @@ footer {
     padding: 80px 20px;
   }
 }
+
+/* 
+
+.text-over-image {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-over {
+  position: relative;
+} */
